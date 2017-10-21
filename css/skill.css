@@ -1,0 +1,422 @@
+/*skill.html*/
+
+.skill_content {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    background: #F5F7F9;
+    margin-top: 80px;
+}
+
+.skill_content_txt {
+    width: 100%;
+    padding: 150px 0;
+    background: url('../img/0555.jpg');
+    background-size: 100% 100%;
+}
+
+.skill_content_txt .title {
+    font-size: 34px;
+    color: #fff;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.skill_content_txt .text {
+    font-size: 16px;
+    color: #aedaff;
+    text-align: center;
+}
+
+
+
+
+/*动画*/
+
+.float_up {
+    width: 100%;
+}
+
+.float_up span {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background: white;
+    opacity: 0.1;
+    margin-bottom: -300px;
+    margin-right: 8%;
+    -webkit-animation: myfloat 15s infinite;
+    -moz-animation: myfloat 15s infinite;
+    -ms-animation: myfloat 15s infinite;
+    -o-animation: myfloat 15s infinite;
+    -webkit-animation: myfloat 15s infinite;
+    animation-timing-function: linear;
+    -webkit-animation-timing-function: linear;
+    -moz-animation-timing-function: linear;
+    -ms-animation-timing-function: linear;
+    -o-animation-timing-function: linear;
+}
+
+.float_up span:nth-child(1) {
+    width: 35px;
+    height: 35px;
+    animation-delay: -3s;
+    -webkit-animation-delay: -3s;
+    -moz-animation-delay: -3s;
+    -ms-animation-delay: -3s;
+    -o-animation-delay: -3s;
+}
+
+.float_up span:nth-child(2) {
+    width: 45px;
+    height: 45px;
+    animation-delay: 5s;
+    -webkit-animation-delay: 5s;
+    -moz-animation-delay: 5s;
+    -ms-animation-delay: 5s;
+    -o-animation-delay: 5s;
+}
+
+.float_up span:nth-child(3) {
+    width: 60px;
+    height: 60px;
+    animation-delay: 4s;
+    -webkit-animation-delay: 4s;
+    -moz-animation-delay: 4s;
+    -ms-animation-delay: 4s;
+    -o-animation-delay: 4s;
+}
+
+.float_up span:nth-child(4) {
+    width: 35px;
+    height: 35px;
+    animation-delay: 2s;
+    -webkit-animation-delay: 2s;
+    -moz-animation-delay: 2s;
+    -ms-animation-delay: 2s;
+    -o-animation-delay: 2s;
+}
+
+.float_up span:nth-child(5) {
+    width: 75px;
+    height: 75px;
+    animation-delay: 8s;
+    -webkit-animation-delay: 8s;
+    -moz-animation-delay: 8s;
+    -ms-animation-delay: 8s;
+    -o-animation-delay: 8s;
+}
+
+.float_up span:nth-child(6) {
+    width: 35px;
+    height: 35px;
+    animation-delay: 3s;
+    -webkit-animation-delay: 3s;
+    -moz-animation-delay: 3s;
+    -ms-animation-delay: 3s;
+    -o-animation-delay: 3s;
+}
+
+.float_up span:nth-child(7) {
+    width: 55px;
+    height: 55px;
+    animation-delay: 5s;
+    -webkit-animation-delay: 5s;
+    -moz-animation-delay: 5s;
+    -ms-animation-delay: 5s;
+    -o-animation-delay: 5s;
+}
+
+.float_up span:nth-child(8) {
+    width: 35px;
+    height: 35px;
+    -webkit-animation-delay: 10s;
+    -moz-animation-delay: 10s;
+    -ms-animation-delay: 10s;
+    -o-animation-delay: 10s;
+    -webkit-animation-delay: 10s;
+}
+
+@keyframes myfloat {
+    0% {
+        -webkit-transform: translateY(0);
+        -moz-transform: translateY(0);
+        -o-transform: translateY(0);
+        transform: translateY(0)
+    }
+    100% {
+        -webkit-transform: translateY(-600px)rotate(500deg);
+        -moz-transform: translateY(-600px)rotate(500deg);
+        -o-transform: translateY(-600px)rotate(500deg);
+        transform: translateY(-600px)rotate(500deg)
+    }
+}
+
+.skill_content_menu {
+    width: 100%;
+    padding: 50px 0;
+    background: #FFFFFF;
+    font-family: "微软雅黑";
+    font-size: 15px;
+    color: #7B7B7B;
+}
+
+.skill_content_menu > div {
+    width: 96%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.skill_content_menu ul {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.skill_content_menu ul li {
+    float: left;
+    border: 1px solid #F2F2F2;
+    padding: 13px 0;
+    cursor: pointer;
+    width: 15%;
+    text-align: center;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    -moz-transform: perspective(1px) translateZ(0);
+    -ms-transform: perspective(1px) translateZ(0);
+    -o-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px transparent;
+    position: relative;
+    background: white;
+    -webkit-transition-property: color;
+    -moz-transition-property: color;
+    -ms-transition-property: color;
+    -o-transition-property: color;
+    transition-property: color;
+    -webkit-transition-duration: 0.3s;
+    -moz-transition-duration: 0.3s;
+    -ms-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+}
+
+.skill_content_menuRight {
+    margin-right: 5.7%;
+}
+
+.skill_content_menu ul li:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #2098D1;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transform-origin: 50%;
+    transform-origin: 50%;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transition-duration: 0.3s;/*持续时间*/
+    transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease-out;/*规定以慢速结束的过渡效果*/
+    transition-timing-function: ease-out;
+}
+
+.skill_content_menu ul li:hover,
+.skill_content_menu ul li:focus,
+.skill_content_menu ul li:active {
+    color: white;
+}
+
+.skill_content_menu ul li:hover:before,
+.skill_content_menu ul li:focus:before,
+.skill_content_menu ul li:active:before {
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+}
+
+.skill_content_main {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    margin-bottom: 80px;
+}
+
+.skill_content_main_left,
+.skill_content_main_right {
+    float: left;
+    font-family: "微软雅黑";
+    font-size: 15px;
+    text-indent: 45px;
+    background: #FFFFFF;
+    border: 1px solid white;
+}
+
+.skill_content_main_left {
+    width: 20%;
+    height: 350px;
+    margin: 2% 3% 0 7%;
+}
+
+.skill_content_main_left table {
+    width: 100%;
+    height: 100%;
+}
+
+.skill_content_main_left table tbody tr:first-child td {
+    background: #3C8DDF;
+    color: white;
+    font-size: 18px;
+}
+
+.skill_content_main_left table tbody tr td {
+    border-bottom: 1px solid #F7F7F7;
+}
+
+.td_slide {
+    background-image: url(../img/float.png);
+    background-repeat-x: no-repeat;
+    background-size: 0% 100%;
+    transition: all 1s;
+}
+
+.td_slide:hover {
+    background-size: 100% 100%;
+    border-bottom: 1px solid #4191E2;
+}
+
+.skill_content_main_right {
+    width: 60%;
+    height: 350px;
+    margin: 2% 0 0 0;
+}
+
+.td_right_slide {
+    background: url(../img/float.png);
+    background-repeat-y: no-repeat;
+    background-size: 100% 0%;
+    transition: all .25s;
+}
+
+.td_right_slide:hover {
+    background-size: 100% 100%;
+}
+
+.td_right_slide td a {
+    color: #B4B4B4;
+}
+
+.skill_content_main_right table:first-child {
+    width: 100%;
+    height: 75%;
+}
+
+.skill_content_main_right table:first-child tbody tr:first-child td {
+    padding: 3% 0 1% 0;
+    border-bottom: 1px solid #F7F7F7;
+    font-size: 18px;
+    color: black;
+}
+
+.skill_content_main_right table:first-child tbody tr td {
+    color: #B4B4B4;
+}
+
+.skill_content_main_right table:last-child {
+    margin-top: 2%;
+}
+
+.span_f {
+    font-weight: bold;
+}
+
+.skill_content_main_right table:last-child tbody tr td {
+    color: black;
+    font-size: 13px;
+}
+
+.last_td td {
+    border-bottom: 1px solid #F7F7F7;
+}
+
+
+
+
+/*skill_guide.html*/
+
+.guide_content_main_right {
+    width: 60%;
+    height: auto;
+    margin: 2% 0 0 0;
+    float: left;
+    background: #FFFFFF;
+    text-indent: 45px;
+}
+
+.guide_content_main_right table:first-child {
+    width: 100%;
+    height: 150px;
+}
+
+.guide_tr_1 {
+    width: 100%;
+    height: 60px;
+    font-size: 18px;
+    font-family: "微软雅黑";
+    color: black;
+}
+
+.guide_tr_1 td,
+.guide_last_tr td {
+    border-bottom: 1px solid #F7F7F7;
+}
+
+.guide_content_main_right table:last-child {
+    margin: 2% 0 2% 0;
+}
+
+.guide_content_main_right table:last-child tbody tr td {
+    color: black;
+    font-size: 13px;
+}
+
+
+
+
+/*skilldetials.html*/
+
+.detials_content_main_right {
+    width: 60%;
+    height: auto;
+    float: left;
+    margin-top: 2%;
+    background: #FFFFFF;
+}
+
+.detials_content_main_right_header {
+    width: 100%;
+    height: 100px;
+    border-bottom: 1px solid #F7F7F7;
+    text-indent: 45px;
+}
+
+.detials_content_main_right_header h1 {
+    margin-top: 2%;
+}
+
+.detials_content_main_right_header table {
+    margin-top: 1%;
+}
+
+.detials_content_main_right_content {
+    width: 97%;
+    height: auto;
+    font-family: "微软雅黑";
+    font-size: 14px;
+    margin: 4% auto;
+    line-height: 30px;
+}

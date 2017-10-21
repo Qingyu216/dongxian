@@ -1,0 +1,243 @@
+/*.serviceIndex_header {
+    background: url('../img/0555.jpg');
+    background-size: 100% 100%;
+}*/
+
+.serviceIndex_content {
+    margin-top: 80px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.serviceIndex_content_one {
+    width: 100%;
+    padding: 150px 0;
+    background: url('../img/0555.jpg');
+    background-size: 100% 100%;
+}
+
+.serviceIndex_content_one .title {
+    font-size: 34px;
+    color: #fff;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.serviceIndex_content_one .text {
+    font-size: 16px;
+    color: #aedaff;
+    text-align: center;
+}
+
+.kzf-mod-product {
+    padding: 90px 0;
+    text-align: center;
+    overflow: hidden;
+}
+
+.mod_product_top {
+    width: 96%;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.kzf-mod-product-title {
+    font-size: 36px;
+    color: #3c94f1;
+    text-align: center;
+}
+
+.kzf-mod-product-brief {
+    color: #818181;
+    font-size: 16px;
+    margin: 20px 0 55px 0;
+}
+
+.mod_product_bottom {
+    width: 96%;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.mod_product_bottom > div {
+    width: 22.75%;
+    float: left;
+    overflow: hidden;
+    text-align: center;
+}
+
+.mod_product_bottomOne,
+.mod_product_bottomTwo,
+.mod_product_bottomThree {
+    margin-right: 3%;
+}
+
+.mod_product_bottom > div img,
+.mod_custom_bottom > div img,
+.mod_case_Content_img img {
+    transition: 0.3s all;
+    -webkit-transition: 0.3s all;
+    position: relative;
+    top: 0;
+}
+
+.mod_product_bottom > div:hover img,
+.mod_custom_bottom > div:hover img,
+.mod_case_Content_img:hover img {
+    top: 5px;
+}
+
+.kzf-mod-product-list-title {
+    color: #333;
+    font-size: 18px;
+    margin: 25px 0 10px 0;
+    text-align: center;
+}
+
+.mod_product_bottom > div p {
+    line-height: 2;
+    color: #818181;
+    transition: 0.3s all;
+    -webkit-transition: 0.3s all;
+}
+
+.kzf-mod-custom {
+    width: 100%;
+    padding: 100px 0;
+    background: #000;
+}
+
+.mod_custom_top {
+    width: 96%;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.kzf-mod-custom-title {
+    font-size: 36px;
+    color: #3c94f1;
+    text-align: center;
+}
+
+.kzf-mod-custom-brief {
+    color: #818181;
+    font-size: 16px;
+    margin: 20px 0 55px 0;
+}
+
+.mod_custom_bottom {
+    width: 96%;
+    max-width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.mod_custom_bottom > div {
+    width: 12%;
+    text-align: center;
+    height: 300px;
+    float: left;
+}
+
+.mod_custom_bottomRight {
+    margin-right: 2.6%;
+}
+
+.kzf-mod-custom-list-title {
+    color: #fff;
+    font-size: 18px;
+    margin: 25px 0 10px 0;
+    text-align: center;
+}
+
+.mod_custom_bottom > div p {
+    line-height: 2;
+    color: #818181;
+    font-size: 14px;
+    text-align: center;
+}
+
+.mod_custom_bottom > div:hover .mod_custom_bottom_hover {
+    color: white;
+}
+
+.kzf-mod-case-container {
+    width: 100%;
+    padding: 100px 0 50px 0;
+}
+
+.mod_case_Top {
+    width: 96%;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.mod_case_Content {
+    width: 96%;
+    max-width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.mod_case_Content > div {
+    width: 45%;
+    height: 500px;
+    float: left;
+    margin-bottom: 40px;
+}
+
+.mod_case_ContentRight {
+    margin-right: 10%;
+}
+
+.mod_case_Content_img {
+    width: 100%;
+    height: 470px;
+}
+
+.mod_case_Content_img img {
+    width: 100%;
+    height: 100%;
+}
+
+.mod_case_Content_text {
+    text-align: center;
+    color: #818181;
+    font-size: 14px;
+    height: 30px;
+}
+
+
+
+/*产品与服务详情页面*/
+
+.technical_support {
+    padding: 30px 0;
+    width: 96%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.technical_support_box_z {
+    background: #fff;
+}
+
+.technical_support_box_z .title {
+    color: #4E4E4E;
+    font-size: 24px;
+}
+
+.technical_support_boxContent p {
+    font-size: 14px;
+}
+
+.technical_support_boxContent {
+    border-top: solid 1px #F7F7F7;
+    border-bottom: solid 1px #F7F7F7;
+    margin: 30px 0;
+    padding: 30px 0;
+}

@@ -1,0 +1,152 @@
+.plan_content{
+	margin-top: 80px;
+    width: 100%;
+    overflow: hidden;
+}
+.plan_first{
+	width: 100%;
+	background: url(../img/0555.jpg) center;
+	color: #fff;
+	font-weight:normal;
+	text-align: center;
+	padding: 150px 0;
+}
+.plan_first p:nth-child(1){
+	font-size: 36px;
+	margin-bottom: 10px;
+}
+.plan_first p:nth-child(2){
+	font-size: 16px;
+	color: #AECEFA;
+}
+.plan_second{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+}
+.plan_second_main{
+	width: 80%;
+	margin:50px auto;
+	height: auto;
+}
+.slove_module{
+	width: 45%;
+	float: left;
+	margin-top:50px;
+}
+.margin_left{
+	margin-left: 8%;
+}
+.slove_module_main{
+	width: 98%;
+	border: 1px solid #F2F2F2;
+	background:#F2F2F2 ;
+	padding: 10px;
+}
+.slove_module_img,
+.slove_module_link,
+.slove_module_describe{
+	text-align: center;
+}
+.slove_module_img img{
+	width: 100%;
+	height: 100%;
+}
+.slove_module_describe{
+	font-size: 18px;
+	color: #7B7B7B;
+	line-height: 38px;
+}
+.slove_module_link>a,
+.a_block{
+	display: inline-block;
+	text-align: center;
+	line-height: 35px;
+	height: 35px;
+	background: #3D9DF4;
+	border: 1px solid #3D9DF4;
+	color: #fff !important;
+	border-radius: 3px;
+	padding: 0 15px;
+	margin-right: 20px;
+}
+.slove_module_link>a:hover{
+	background:#F2F2F2;
+	color:#3D9DF4 !important;
+}
+.a_block:hover{
+	background:#fff;
+	color:#3D9DF4 !important;
+}
+.margin_bottom{
+	margin-bottom: 50px;
+}
+.plan_third,
+.plan_four{
+	width: 80%;
+	height: auto;
+	overflow: hidden;
+	border-top: 1px solid #F2F2F2;
+	margin: 50px auto;
+}
+.plan_third_main,
+.plan_four_main
+{
+	position: relative;
+	margin: 30px auto;
+	width: 100%;
+	
+}
+.plan_third_main div:first-child,
+.plan_four_main div:first-child
+{
+
+	font-size: 16px;
+	line-height: 50px;
+	text-align: center;
+	color: #7B7B7B;
+}
+.plan_third_main div:last-child,
+.plan_four_main div:last-child{
+	text-align: center;
+}
+/*详情页*/
+.plan_details_content{
+	width: 100%;
+	background: #F2F2F2;
+	height: auto;
+	overflow: hidden;
+	margin-top: 80px;
+}
+.details_content_main{
+	width: 80%;
+	background: #fff;
+	padding: 35px;
+	margin: 50px auto;
+	height: auto;
+}
+.details_describe{
+	border-bottom: 1px solid #F2F2F2;
+}
+.details_describe p:first-child{
+	font-size: 22px;
+	font-weight: bold;
+	line-height: 40px;
+}
+.details_describe p:last-child{
+	line-height: 50px;
+
+}
+.details_content_main>div{
+	font-size: 14px;
+	line-height: 30px;
+}
+.details_content_main>p{
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 35px;
+	text-indent: 2em;
+}
+.margin_top{
+	margin-top: 30px;
+}
